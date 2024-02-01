@@ -23,7 +23,6 @@ if "key" not in st.session_state:
     
 
 key = st.sidebar.text_input("Your key", type="password")    
-key = toml.load('secret.toml')
 if key:
     st.session_state.key =key
     
