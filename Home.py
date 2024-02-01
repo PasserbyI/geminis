@@ -22,7 +22,8 @@ if "key" not in st.session_state:
     st.session_state.key = None
     
 
-key = st.sidebar.text_input("Your key", type="password")    
+key = st.sidebar.text_input("Your key", type="password") 
+key = "AIzaSyDVF93ODKHRvMJtl4JGW5RBVeOQx7vRfls"
 if key:
     st.session_state.key =key
     
